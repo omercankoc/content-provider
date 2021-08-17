@@ -51,7 +51,7 @@ class MainActivity : AppCompatActivity() {
                     val adapter = ArrayAdapter<String>(this@MainActivity,android.R.layout.simple_list_item_1,contactList)
                     listView.adapter = adapter
                 }
-            } else { // Eger kullanici erisime izin vermediyse tekrar erisim izini iste.
+            } else { // Eger kullanici erisime izin vermediyse erisim izini iste.
                 ActivityCompat.requestPermissions(this@MainActivity,arrayOf(Manifest.permission.READ_CONTACTS),1)
             }
         }
