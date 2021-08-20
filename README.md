@@ -3,8 +3,6 @@ A content provider manages access to a central repository of data. A provider is
 
 Typically you work with content providers in one of two scenarios; you may want to implement code to access an existing content provider in another application, or you may want to create a new content provider in your application to share data with other applications. This topic covers the basics of working with existing content providers.
 
-Here is an example of an application that retrieves contacts data if the user allows access.
-
 ```kotlin
 buttonOK.setOnClickListener {
     // Find and show all names from the directory if the user has allowed access.
